@@ -87,7 +87,12 @@ def choose_login_type():
         print("Datatype was not a string...")
 
 
-load_from_file()
-print(user_list)
-choose_login_type()
+def main():
+    load_from_file()
+    print(user_list)
+    choose_login_type()
+
+
+if __name__ == '__main__':
+    main()
 
